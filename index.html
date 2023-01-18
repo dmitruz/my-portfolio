@@ -12,22 +12,26 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Ubuntu:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/d4bd6abc8c.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section class="hero">
       <nav>
         <img class="logo" src="src/img/logo.png" alt="My logo" />
-        <ul>
-          <li>About Me</li>
-          <li>My projects</li>
-          <li>My contacts</li>
+        <ul id="nav-list">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-projects">My projects</a></li>
+          <li><a href="#my-contacts">My contacts</a></li>
         </ul>
+        <buton class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </buton>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
           <h1>Dmytro Ruzhytskyi</h1>
           <p>Full Stack Developer</p>
-          <div class="button">About me</div>
+          <div class="button"><a href="#about-me">About me</a></div>
         </div>
         <div class="socials">
           <div class="social-link">
@@ -78,9 +82,60 @@
         </div>
       </div>
     </section>
-    <section></section>
-    <section></section>
-    <section class="footer"></section>
+    <section class="sub-section" id="about-me">
+      <div class="information">
+        <h2>About Me</h2>
+        <p>Hello. nnbuibub bbbvybvyhvb jnjbbbbvyvb bhbvhvbyhuvyh bvhvhvuyvyuvyv</p>
+      </div>
+      <div class="headshot-container">
+        <img src="src/img/I am.JPG" alt="I am" class="headshot" />
+      </div>
+    </section>
+    <section class="project-section" id="my-projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="/src/img/movies_search.jpg" width="300px" alt="project-1" />
+          <h3 class="project-title">Project One</h3>
+          <p class="subtext">This is my project bbkhuhu ihuihuiuuuh</p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/dmitruz">View here</a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="/src/img/movies_search.jpg" width="300px" alt="project-1" />
+          <h3 class="project-title">Project One</h3>
+          <p class="subtext">This is my project bbkhuhu ihuihuiuuuh</p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/dmitruz">View here</a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="/src/img/movies_search.jpg" width="300px" alt="project-1" />
+          <h3 class="project-title">Project One</h3>
+          <p class="subtext">This is my project bbkhuhu ihuihuiuuuh</p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/dmitruz">View here</a>
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="/src/img/movies_search.jpg" width="300px" height="200px" alt="project-1" />
+          <h3 class="project-title">Project One</h3>
+          <p class="subtext">This is my project bbkhuhu ihuihuiuuuh</p>
+          <hr />
+          <p class="subtext">
+            <a class="project-link" href="https://github.com/dmitruz">View here</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="footer" id="my-contacts">
+      <h3>Contact Me</h3>
+      <p>dmitruz970@gmail.com</p>
+    </section>
     <script src="src/app.js"></script>
   </body>
 </html>

@@ -4,9 +4,23 @@ font-family: 'Libre Baskerville', serif;
 
 }
 section {
-    height: 500px;
+    padding: 30px;
     background-color:aqua;
-    border: solid black 1px;
+  
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
 
 .hero {
@@ -17,8 +31,10 @@ section {
 }
 
 footer {
-    height: 500px;
+    padding: 30px;
     background-color: black;
+    color:#fff;
+    text-align: center;
 }
 
 nav {
@@ -34,6 +50,10 @@ ul {
     font-size: 20px;
 }
 
+ul.show {
+    display: block;
+}
+
 li {
     
     text-decoration: none;
@@ -41,6 +61,10 @@ li {
 
 h1 {
     margin: 0;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
@@ -59,6 +83,10 @@ p {
     margin-bottom: 200px;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
 .button {
     width: 200px;
     height: 50px;
@@ -92,4 +120,87 @@ p {
 
 .social-link {
     margin: 20px;
+}
+
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-card {
+   width: 300px;
+   height: 500px;
+   box-shadow: 5px 5px 20px; 
+   margin: 10px;
+   
+}
+
+.project-title {
+    margin-left: 80px;
+}
+
+hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color:#ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+}
+.hamburger:focus {
+    outline: 0;
+}
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #2b2c38;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px;
+        background-color: #2b2c38;
+    }
+    .logo {
+        display: none;
+    }
 }
