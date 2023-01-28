@@ -81,15 +81,18 @@ p {
     font-weight: 300;
     color:#fff;
 }
+
 .profession {
     margin-top: 10px;
 }
+
 .hero-area {
     display: flex;
     height: 100%;
     justify-content: space-between;
     align-items: center;
 }
+
 .hero-text {
     margin-left: 140px;
     margin-bottom: 200px;
@@ -123,7 +126,8 @@ p {
 
 .socials {
     padding-bottom: 200px;
-    position: sticky;
+   position:fixed;
+   right: 10px;
 }
 
 .logo {
@@ -140,17 +144,28 @@ p {
     display: flex;
     align-items: center;
 }
+
+.header-link:hover {
+    color:#ef744b;
+}
+
 .headshot {
     width: 300px;
-    border-radius: 150px;
+    border-radius: 40px;
+    margin-top: 50px;
 }
 
 .information {
     margin-left: 0px;
 }
+
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.subtext {
+    margin-left: 20px;
 }
 
 .contact-list {
@@ -183,11 +198,12 @@ p {
    height: 500px;
    box-shadow: 5px 5px 20px; 
    margin: 10px;
+   justify-content: center;
    
 }
 
 .project-title {
-    margin-left: 80px;
+   margin-left: 20px;
 }
 
 hr {
