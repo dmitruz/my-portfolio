@@ -25,7 +25,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    height: 100vh;
+    height: 70vh;
     color: white;
     font-size: 30px;
     
@@ -78,8 +78,13 @@ h3 {
 
 p {
     margin: 0;
-    font-weight: 300;
+    font-weight: 500;
     color:#fff;
+}
+
+.about-me {
+    font-weight: 300;
+    text-align: left;
 }
 
 .profession {
@@ -95,7 +100,7 @@ p {
 
 .hero-text {
     margin-left: 140px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .subtext {
@@ -143,6 +148,7 @@ p {
 .headshot-container {
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 
 .header-link:hover {
@@ -156,7 +162,12 @@ p {
 }
 
 .information {
-    margin-left: 0px;
+    margin-left: 140px;
+    margin-right: 20px;
+}
+
+.about-me {
+    font-size: 30px;
 }
 
 .project-container {
