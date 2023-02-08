@@ -1,6 +1,7 @@
 
 body {
 font-family: 'Libre Baskerville', serif;
+position: relative;
 
 }
 section {
@@ -129,6 +130,8 @@ p {
     color: #808080;
 }
 
+
+
 .socials {
     padding-bottom: 200px;
    position:fixed;
@@ -164,6 +167,7 @@ p {
 .information {
     margin-left: 140px;
     margin-right: 20px;
+    
 }
 
 .about-me {
@@ -197,15 +201,6 @@ p {
     
 }
 
-.modal {
-    padding: 1em;
-    max-width: 50vh;
-}
-
-.modal::backdrop {
-    background: purple;
-    opacity: .3;
-}
 
 @media only screen and (max-width: 1000px) {
     .project-container {
