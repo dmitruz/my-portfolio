@@ -197,6 +197,16 @@ p {
     
 }
 
+.modal {
+    padding: 1em;
+    max-width: 50vh;
+}
+
+.modal::backdrop {
+    background: purple;
+    opacity: .3;
+}
+
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
