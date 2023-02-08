@@ -1,3 +1,4 @@
 # my-portfolio
 
-My portfolio https://www.youtube.com/watch?v=-D6oTPA4vXc&ab_channel=CodewithAniaKub%C3%B3w
+This is My Portfolio.
+Her You can see information about me, links to my social links, Some of my projects and also links to my CV and certificate.
