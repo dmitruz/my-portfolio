@@ -9,6 +9,9 @@ section {
     background-color:hwb(190 18% 79%);
   
 }
+.container {
+    width: 1360px;
+}
 
 .sub-section {
     display: flex;
@@ -202,12 +205,6 @@ p {
 }
 
 
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
 
 .project-card {
    width: 300px;
@@ -243,7 +240,35 @@ a {
 .hamburger:focus {
     outline: 0;
 }
-@media only screen and (max-width: 1000px) {
+@media  screen and (max-width: 480px) {
+    .container {
+        width: 480px;
+    }
+     .hero {
+        height: none;
+    }
+    .hero-text {
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .profession {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .button {
+        margin: 40px auto;
+    }
+   
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
     .hamburger {
     display: block;
     border: 0;
@@ -253,6 +278,9 @@ a {
     margin: 20px;
     align-self: flex-end;
     }
+    .information {
+        margin-left: 20px;
+    }
 
     ul {
         display: none;
@@ -260,6 +288,16 @@ a {
     }
     li {
         margin-top: 10px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .about-me {
+        font-size: 24px;
+    }
+    .headshot-container {
+        justify-items: center;
+        justify-content: center;
     }
     .contact-list {
         display: block;
@@ -269,7 +307,22 @@ a {
     .social-container {
         display: none;
     }
-
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        align-items:normal;
+        margin-left: 0;
+    }
+   .contact-list {
+    display: flex;
+    margin-left: 0;
+   }
+   .contact-link {
+    font-size: 16px;
+   }
+   .contact-item {
+    padding-left: 0;
+   }
     nav {
         display: flex;
         flex-direction: column-reverse;
