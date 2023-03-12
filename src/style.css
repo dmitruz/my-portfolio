@@ -241,6 +241,9 @@ a {
     outline: 0;
 }
 @media  screen and (max-width: 480px) {
+    .section {
+        width: 480px;
+    }
     .container {
         width: 480px;
     }
@@ -278,6 +281,9 @@ a {
     margin: 20px;
     align-self: flex-end;
     }
+    .socials {
+        display: none;
+    }
     .information {
         margin-left: 20px;
     }
@@ -298,15 +304,28 @@ a {
     .headshot-container {
         justify-items: center;
         justify-content: center;
+        margin-right: 0;
     }
-    .contact-list {
-        display: block;
-        margin-left: 180px;
-        background-color: black;
+    
+    .headshot {
+        width: 400px;
+        height: 350px;
     }
     .social-container {
         display: none;
     }
+    .project-card {
+        width: 400px;
+        height: 400px;
+    }
+    .project-img {
+        width: 400px;
+        height: 350px;
+    }
+   img {
+    width: 400px;
+    height: 200px;
+   }
     .footer-container {
         display: flex;
         flex-direction: row;
@@ -316,12 +335,15 @@ a {
    .contact-list {
     display: flex;
     margin-left: 0;
+    width: 380px;
+    background-color: black;
    }
    .contact-link {
-    font-size: 16px;
+    font-size: 14px;
    }
    .contact-item {
     padding-left: 0;
+    margin-left: 10px;
    }
     nav {
         display: flex;
@@ -329,6 +351,10 @@ a {
         margin: 0px;
         background-color: #2b2c38;
     }
+    .footer {
+        padding-left:0;
+    }
+    
     .logo {
         display: none;
     }
