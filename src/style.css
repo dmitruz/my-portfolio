@@ -11,12 +11,31 @@ a:hover {
 h1, h2, h3, p {
     color: white;
 }
+body {
+font-family: 'Libre Baskerville', serif;
+position: relative;
 
+}
+section {
+    padding-top: 30px;
+    background-color:hwb(190 18% 79%);
+  
+}
 
 /* -------------- MOBILE ----------------------- */
 
 
 @media  screen and (min-width: 480px) {
+    body {
+font-family: 'Libre Baskerville', serif;
+position: relative;
+
+}
+section {
+    padding-top: 30px;
+    background-color:hwb(190 18% 79%);
+  
+}
     .section {
         width: 480px;
     }
@@ -28,7 +47,7 @@ h1, h2, h3, p {
     }
     .hero-text {
         margin-left: 40px;
-        margin-top: 50px;
+        padding-bottom: 40px;
     }
     h1 {
         font-size: 36px;
