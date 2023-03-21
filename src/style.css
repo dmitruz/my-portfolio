@@ -508,7 +508,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    height: 100vh;
+    height: 70vh;
     color: white;
     font-size: 40px;
 }
@@ -517,7 +517,8 @@ footer {
     background-color: black;
     color: black;
     text-align: center;
-    padding: 80px;
+    padding-top: 40px;
+    
 }
 
     
@@ -537,13 +538,14 @@ a:hover {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    
     justify-content: space-around;
     font-size: 30px;
 }
 
 li {
     text-decoration: none;
+    margin-right: 65px;
 }
 
 h1 {
@@ -558,6 +560,7 @@ h2 {
 }
 h3 {
     color: white;
+    font-size: 30px;
 }
 
 p {
@@ -583,10 +586,14 @@ p {
     margin-left: 80px;
     margin-bottom: 200px;
 }
-
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .button {
     width: 200px;
-    height: 55px;
+    height: 40px;
     border-radius: 30px;
     background-color: coral;
     text-align: center;
@@ -594,6 +601,18 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+}
+.button-two {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
 .button:hover {
@@ -627,18 +646,21 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+   
 }
 
 .headshot {
-    width: 300px;
+    width: 400px;
     border-radius: 150px;
-    margin-left: 80px;
+    
 }
 
 .headshot-container {
     display: flex;
     align-items: center;
+    margin-left: 500px;
+    margin-top: 100px;
+
 }
 
 .project-card {
@@ -652,12 +674,65 @@ p {
     display: flex;
     justify-content: space-around;
 }
+.social-container {
+    margin: 0;
+}
 
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
     }
+    h1 {
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .sub-section {
+        padding: 40px;
+    }
+    .information {
+        display: block;
+     
+    }
+    .btn-wrapper {
+        display: flex;
+    }
+    .button {
+        width: 180px;
+        height: 40px;
+        margin-left: 15px;
+    }
+    
+    .sub-section-alternative {
+        padding: 0;
+    }
+    .headshot-container {
+        display: none;
+    }
+    .project-card {
+        height: 400px;
+    }
+   
+    .contact-list-last {
+        display: flex;
+    }
+    .contact-item-last {
+        padding-left: 20px;
+    }
+   footer {
+    padding-top: 40px;
+    padding-bottom: 0;
+    background-color:#2b2c38;
+   }
+   .social-container {
+    display: none;
+   }
 }
 
 .project-image {
@@ -694,9 +769,7 @@ a {
 .contact-item {
     padding-left: 40px;
 }
-.social-container {
-    margin-left: 400px;
-}
+
 
 @media only screen and (max-width: 1000px) {
     .hamburger {
@@ -711,9 +784,12 @@ a {
 
     ul {
         display: none;
+        background-color: black;
+       
         background-color: #2b2c38;
-        margin: 0ppx;
+        width: 200px;
     }
+    
 
     ul.show {
         display: block;
