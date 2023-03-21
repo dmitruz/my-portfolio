@@ -545,6 +545,10 @@ ul {
 
 li {
     text-decoration: none;
+    margin-right: 20px;
+    
+}
+.contact-item-last {
     margin-right: 65px;
 }
 
@@ -635,7 +639,9 @@ p {
 .social {
     margin: 20px;
 }
-
+.social-items {
+    margin-right: 65px;
+}
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -689,9 +695,13 @@ p {
     }
     h2 {
         font-size: 24px;
+        margin-left: 20px;
+    }
+    h3 {
+        margin-left: 20px;
     }
     h4 {
-        font-size: 16px;
+        font-size: 12px;
     }
     .sub-section {
         padding: 40px;
@@ -708,7 +718,9 @@ p {
         height: 40px;
         margin-left: 15px;
     }
-    
+    .button-two {
+        margin-left: 8px;
+    }
     .sub-section-alternative {
         padding: 0;
     }
@@ -721,9 +733,11 @@ p {
    
     .contact-list-last {
         display: flex;
+        margin-left: 100px;
     }
     .contact-item-last {
         padding-left: 20px;
+        margin-right: 20px;
     }
    footer {
     padding-top: 40px;
