@@ -699,6 +699,7 @@ p {
     }
     h3 {
         margin-left: 20px;
+        font-size: 20px;
     }
     h4 {
         font-size: 12px;
@@ -737,7 +738,7 @@ p {
     }
     .contact-item-last {
         padding-left: 20px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
    footer {
     padding-top: 40px;
@@ -746,6 +747,9 @@ p {
    }
    .social-container {
     display: none;
+   }
+   .socials {
+    right: 20px;
    }
 }
 
