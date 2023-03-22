@@ -749,7 +749,8 @@ p {
     display: none;
    }
    .socials {
-    right: 20px;
+    right: 15px;
+    top: 70px;
    }
 }
 
