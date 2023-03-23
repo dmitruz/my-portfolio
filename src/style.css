@@ -737,7 +737,7 @@ p {
         margin-left: 100px;
     }
     .contact-item-last {
-        padding-left: 20px;
+        
         margin-right: 40px;
     }
    footer {
@@ -749,8 +749,8 @@ p {
     display: none;
    }
    .socials {
-    right: 15px;
-    top: 70px;
+    right: 25px;
+    top: 80px;
    }
 }
 
