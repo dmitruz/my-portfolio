@@ -720,7 +720,7 @@ p {
        
     }
     .button-two {
-        width: 180px;
+        width: 160px;
         margin-left: 10px;
     }
     .sub-section-alternative {
@@ -735,11 +735,12 @@ p {
    
     .contact-list-last {
         display: flex;
-        margin-left: 90px;
+        width: 400px;
+        margin: 0 auto;
     }
     .contact-item-last {
         
-        margin-right: 40px;
+        margin-right: 30px;
     }
    footer {
     padding-top: 40px;
@@ -805,7 +806,7 @@ a {
     ul {
         display: none;
         background-color: black;
-       
+       font-size: 24px;
         background-color: #2b2c38;
         width: 200px;
     }
@@ -813,6 +814,7 @@ a {
 
     ul.show {
         display: block;
+        margin-top: 0;
     }
 
     nav {
