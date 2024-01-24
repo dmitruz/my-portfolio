@@ -26,6 +26,7 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -87,7 +88,7 @@ section {
 
 .home-img img {
     width: 30vw;
-    animation: floatImage 4s ease-in-out infinite;
+    animation: floatImage 4s ease-in-out;
     border-radius: 40%;
     margin-left: 4rem;
 }
