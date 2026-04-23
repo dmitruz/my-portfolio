@@ -3,7 +3,7 @@ import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
 
 
-export const projects = [
+export const frontendProjects = [
     {
         title: "Search Movie Website.",
         description: "A dynamic web application designed to help cinephiles discover their next favorite film through advanced filtering and real-time data fetching.",
