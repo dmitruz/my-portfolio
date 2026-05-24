@@ -8,14 +8,13 @@ export default function Home() {
     return (
         <section className="home" id="home">
             <div className="home-content">
-                <h3>Hello, it's me</h3>
                 <h1>Dmytro Ruzhytskyi</h1>
 
                 <h3>
                     I'm a <span>{typedText}</span>
                 </h3>
                 <p className="home-paragraph">
-                    I’m a software developer focused on building scalable web applications and practical AI-driven solutions.
+                    I’m  focused on building scalable web applications and practical AI-driven solutions.
 
                     I work with technologies like JavaScript, Python, React, Node.js, and Django to deliver reliable, high-quality products from idea to deployment.
 
@@ -24,6 +23,28 @@ export default function Home() {
                     I’m always looking to solve real-world problems with efficient and thoughtful solutions.
                 </p>
                 <a href="#contact" className="btn">Contact Me</a>
+                <div className="sociale-links">
+                    <a href="https://github.com/dmitruz" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i className="fab fa-github" style={{ color: '#fff' }}></i>
+                    </a>
+                    <a href="https://linkedin.com/in/dmytro-ruzhytskyi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i className="fab fa-linkedin" style={{ color: '#fff' }}></i>
+                    </a>
+                    <a href="https://docs.google.com/document/d/1tCjc4wjreTcB3EkBvxKlqnpwPFNlewMbad8ztNbTAUg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Download CV">
+                        <i className="fas fa-file-alt" style={{ color: '#fff' }}></i>
+                    </a>
+                </div>
+            </div>
+            <div className="home-skills">
+                <h2>Core Technologies</h2>
+                <div className="skills-grid">
+                    <div className="skill-item">JavaScript</div>
+                    <div className="skill-item">Python</div>
+                    <div className="skill-item">React</div>
+                    <div className="skill-item">Node.js</div>
+                    <div className="skill-item">Django</div>
+                    <div className="skill-item">SQL</div>
+                </div>
             </div>
         </section>
     );

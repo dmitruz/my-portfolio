@@ -78,93 +78,300 @@ section {
     display: none;
 }
 
+
+
+/* HOME SECTION MODIFICATIONS --------------------------------*/
+
 .home {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    /* Side-by-side layout on desktop viewports */
+    justify-content: space-between;
     align-items: center;
+    gap: 4rem;
+    padding: 0 7%;
+    /* Adds safety boundaries on wide displays */
+    min-height: 85vh;
 }
 
-.home-img img {
-    width: 30vw;
-    animation: floatImage 4s ease-in-out;
-    border-radius: 50%;
-    margin-left: 4rem;
-}
-
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-2.4rem);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
+/* Restrict bio width so it leaves room for the technology block */
+.home-content {
+    flex: 1;
+    max-width: 55%;
 }
 
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
+
 }
 
 .home-content h3:nth-of-type(2) {
     margin-bottom: 2rem;
 }
 
-span {
-    color: var(--main-color);
+.home-content h3:nth-of-type(2) {
+
+    margin-bottom: 2rem;
+
 }
+
+
+
+span {
+
+    color: var(--main-color);
+
+}
+
+
 
 .home-content h1 {
+
     font-size: 5.6rem;
+
     font-weight: 700;
+
     line-height: 1.3;
+
 }
 
+
+
 .home-content p {
+
     font-size: 2.0rem;
+
+}
+
+/* Right side panel layout styles */
+.home-skills {
+    flex: 1;
+    max-width: 40%;
+    background: rgba(255, 255, 255, 0.03);
+    /* Subtle backdrop contrast */
+    padding: 3rem;
+    border-radius: 1.6rem;
+    border: 1px solid rgba(0, 171, 240, 0.1);
+}
+
+.home-skills h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #fff;
 }
 
 .social-media a {
+
     display: inline-flex;
+
     justify-content: center;
+
     align-items: center;
+
     width: 4rem;
+
     height: 4rem;
+
     background: transparent;
+
     border: .2rem solid var(--main-color);
+
     border-radius: 50%;
+
     font-size: 2rem;
+
     color: var(--main-color);
+
     margin: 3rem 1.5rem 3rem 0;
+
     transition: .5s ease;
+
 }
+
+
 
 .social-media a:hover {
+
     background: var(--main-color);
+
     color: var(--second-bg-color);
+
     box-shadow: 0 0 1rem var(--main-color);
+
 }
+
+
 
 .btn {
+
     display: inline-block;
+
     padding: 1rem 2.8rem;
+
     background: var(--main-color);
+
     border-radius: 4rem;
+
     box-shadow: 0 0 1rem var(--main-color);
+
     font-size: 1.6rem;
+
     color: var(--second-bg-color);
+
     letter-spacing: .1rem;
+
     font-weight: 600;
+
     transition: .5s ease;
+
 }
 
+
+
 .btn:hover {
+
     box-shadow: none;
+
 }
+
+.sociale-links {
+
+    display: flex;
+
+    gap: 15px;
+
+    /* Puts space between the icons */
+
+    margin-top: 20px;
+
+    /* Puts space between the "Contact Me" button and links */
+
+}
+
+
+
+/* Individual link styling */
+
+.sociale-links a {
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 40px;
+
+    /* Forces a width so it's no longer 0 */
+
+    height: 40px;
+
+    /* Forces a height so it's no longer 0 */
+
+    border: 2px solid #00abf0;
+
+    /* Use your portfolio's accent color here */
+
+    border-radius: 50%;
+
+    /* Makes them nice and round */
+
+    color: #00abf0;
+
+    /* Icon color */
+
+    font-size: 20px;
+
+    /* Icon size */
+
+    transition: all 0.3s ease;
+
+    text-decoration: none;
+
+}
+
+
+
+.sociale-links a i {
+
+    color: #ffffff !important;
+
+    /* Forces the icon itself to be white */
+
+    font-size: 20px;
+
+    /* Ensures it has a visible size */
+
+}
+
+
+
+/* Hover effect to make it interactive */
+
+.sociale-links a:hover {
+
+    background-color: #00abf0;
+
+    color: #fff;
+
+    /* Changes icon color to white on hover */
+
+    box-shadow: 0 0 10px #00abf0;
+
+    /* Optional: adds a nice glow effect */
+
+}
+
+/* Uniform layout array for skills tags */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.skill-item {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0.8rem 1.8rem;
+    background: transparent;
+    border: 2px solid #00abf0;
+    /* Matches your accent highlight color */
+    color: #00abf0;
+    border-radius: 2rem;
+    transition: 0.3s ease;
+}
+
+.skill-item:hover {
+    background: #00abf0;
+    color: #fff;
+    box-shadow: 0 0 1rem #00abf0;
+}
+
+/* RESPONSIVE DESIGN FOR MOBILE VIEWS ---------------------------*/
+@media (max-width: 992px) {
+    .home {
+        flex-direction: column;
+        /* Vertically stack containers on tablet/mobile screens */
+        justify-content: center;
+        text-align: left;
+        padding: 5rem 3%;
+    }
+
+    .home-content,
+    .home-skills {
+        max-width: 100%;
+        /* Allow elements to occupy full screen container width */
+        width: 100%;
+    }
+
+    .home-skills {
+        margin-top: 3rem;
+        /* Separates the skill block from the bio above it */
+    }
+}
+
+/* AND HOME---------------------------------*/
 
 .about {
     display: flex;
@@ -310,11 +517,15 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    font-weight: 700;
+    color: #1f242d;
 }
 
 .portfolio-layer p {
     font-size: 1.6rem;
+    font-weight: 700;
     margin: .3rem 0 1rem;
+    color: #1f242d;
 }
 
 .portfolio-layer a {
