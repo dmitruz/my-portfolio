@@ -17,16 +17,14 @@ export default function Services() {
                         Clean, maintainable architecture
                     </p>
                 </div>
-
                 <div className="services-box">
-                    <i className="bx bx-bug"></i>
-                    <h3>Software Testing & Quality Assurance</h3>
-                    <p>
-                        Ensure reliability, performance, and maintainability of applications.
-                        Automated testing (unit, integration, e2e)
-                        Debugging and performance optimization
-                        Code reviews & best practices
-                        CI/CD pipeline integration
+                    <i className="bx bx-bar-chart-alt"></i>
+                    <h3>Data Analysis, Vizualisation and Analytics Automation</h3>
+                    <p className="text__alight">
+                        Data cleaning, exploration, and analysis using SQL, Python, and
+                        Pandas. Turning raw data into clear insights and business decisions.
+                        Automating reports, data pipelines, and validation using Python,
+                        APIs, and SQL databases (PostgreSQL, MySQL).
                     </p>
                 </div>
 
