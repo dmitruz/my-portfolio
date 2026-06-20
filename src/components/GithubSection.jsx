@@ -48,13 +48,7 @@ export default function GithubSection() {
                 let otherProjects = 0;
 
                 filteredRepos.forEach((repo) => {
-
-                    filteredRepos.forEach(r => console.log(r.name));
-                    console.log("MATCHED REPOS:");
-                    filteredRepos.forEach(r => console.log(r.name));
                     const name = repo.normName;
-                    console.log("MATCHED REPOS:");
-
 
                     if (projectCategories.react.includes(name)) reactProjects++;
                     else if (projectCategories.backend.includes(name)) backendProjects++;

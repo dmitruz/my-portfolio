@@ -1,21 +1,21 @@
 export const projectCategories = {
-    react: [
+     react: [
         "crypto_trading_bot",
         "psychologist_liuda",
-        "sweet-home",
-        "phone-book",
-        "crypto-search",
-        "gym-app",
-        "lose-weight-app",
+        "sweet_home",
+        "phone_book",
+        "crypto_search",
+        "gym_app",
+        "lose_weight_app",
         "camp_travel",
         "typewriting_analzer",
-        "my-portfolio",
+        "my_portfolio",
         "text_analysis_app"
     ],
 
     backend: [
-        "clinic-management-backend",
-        "lose-weight-app",
+        "clinic_management_backend",
+        "lose_weight_app",
         "psychologist_liuda",
         "text_analysis_api"
     ],
@@ -25,11 +25,11 @@ export const projectCategories = {
     ],
 
     other: [
-        "restaurant-menu",
-        "filmoteka-team-project",
-        "windows-glazing",
-        "translate-me",
-        "e-commerce",
+        "restaurant_menu",
+        "filmoteka_team_project",
+        "windows_glazing",
+        "translate_me",
+        "e_commerce",
         "poter_pots",
         "realestate_business_template"
     ]
