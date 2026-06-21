@@ -19,12 +19,13 @@ export default function Services() {
                 </div>
                 <div className="services-box">
                     <i className="bx bx-bar-chart-alt"></i>
-                    <h3>Data Analysis, Vizualisation and Analytics Automation</h3>
+                    <h3>Data Analytics, Data Science & Automation</h3>
                     <p className="text__alight">
-                        Data cleaning, exploration, and analysis using SQL, Python, and
-                        Pandas. Turning raw data into clear insights and business decisions.
-                        Automating reports, data pipelines, and validation using Python,
-                        APIs, and SQL databases (PostgreSQL, MySQL).
+                        Combining expertise in data analytics and data science to build scalable,
+                        insight-driven solutions. Skilled in Python, SQL, Pandas, NumPy,
+                        Scikit-learn, Power BI, Tableau, PostgreSQL, MySQL, APIs, and workflow
+                        automation for data visualization, predictive analytics, dashboard
+                        development, and automated reporting.
                     </p>
                 </div>
 

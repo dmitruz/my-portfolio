@@ -424,7 +424,8 @@ span {
 .services-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    /* IMPORTANT */
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -437,6 +438,15 @@ span {
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+
+    display: flex;
+    /* NEW */
+    flex-direction: column;
+    /* NEW */
+    justify-content: flex-start;
+
+    min-height: 420px;
+    /* NEW */
 }
 
 .services-container .services-box:hover {
@@ -451,11 +461,14 @@ span {
 
 .services-box h3 {
     font-size: 2.6rem;
+    line-height: 1.3;
+    min-height: 70px;
 }
 
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+    line-height: 1.6;
 }
 
 .portfolio {
