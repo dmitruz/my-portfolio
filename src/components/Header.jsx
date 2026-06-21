@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className={`header ${menuOpen ? "sticky" : ""}`}>
             <a href="#home" className="logo">
-                Portfolio.
+                Wellcome to my <span>Portfolio</span>
             </a>
 
             <div

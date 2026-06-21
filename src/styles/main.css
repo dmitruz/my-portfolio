@@ -91,13 +91,12 @@ section {
     gap: 4rem;
     padding: 0 7%;
     /* Adds safety boundaries on wide displays */
-    min-height: 85vh;
+    min-height: 100vh;
 }
 
 /* Restrict bio width so it leaves room for the technology block */
 .home-content {
     flex: 1;
-    max-width: 55%;
 }
 
 .home-content h3 {
