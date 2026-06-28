@@ -1,19 +1,29 @@
-import project1 from "../../images/project1.png"
+import react1 from "../../images/react-1.png";
+import react2 from "../../images/react-2.png";
 import project2 from "../../images/project2.png";
 import project3 from "../../images/project3.png";
 
 
-export const frontendProjects = [
+
+
+export const reactProjects = [
     {
-        title: "Search Movie Website.",
-        description: "A dynamic web application designed to help cinephiles discover their next favorite film through advanced filtering and real-time data fetching.",
-        image: project1,
-        link: "https://korolovdmitriy.github.io/filmoteka-team-project/",
-        code: "https://github.com/dmitruz/filmoteka-team-project"
+        title: "EvoGym.",
+        description: "A dynamic web application designed for gym lovers. (React, Typescript, TailwindCSS)",
+        image: react1,
+        code: "https://github.com/dmitruz/gym-app",
+        link: "https://evogym-group.netlify.app/"
     },
     {
-        title: "Personal Calorie Tracker",
-        description: "A health-focused utility app that calculates a user’s Total Daily Energy Expenditure (TDEE) to provide personalized weight loss goals.",
+        title: "Realestate agency",
+        description: "Real estate Agency. Provide sorting and searching functionaliry for chosing flats for rent/buy (React, Typescript, Redux-Toolkit, CSS)",
+        image: react2,
+        link: "https://dmitruz.github.io/sweet-home/",
+        code: "https://github.com/dmitruz/sweet-home"
+    },
+    {
+        title: "Lose Weight APP",
+        description: "Calculation of daily calories intake. Adjusting height, weight, age, blod type. (React, Redux-Toolkit, Node.js)",
         image: project2,
         link: "https://weightloss-webhive.netlify.app/",
         code: "https://github.com/dmitruz/lose-weight-app"

@@ -1,4 +1,4 @@
-import { frontendProjects } from "../data/projects/FrontendProjects";
+import { reactProjects } from "../data/projects/FrontendProjects";
 import "../styles/main.css";
 import Github from "../images/github.png";
 
@@ -12,13 +12,13 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {frontendProjects.map((project, index) => (
+                {reactProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank">
+                            <a href={project.code} target="_blank">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
@@ -30,13 +30,13 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {frontendProjects.map((project, index) => (
+                {reactProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank">
+                            <a href={project.code} target="_blank">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
@@ -48,13 +48,13 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {frontendProjects.map((project, index) => (
+                {reactProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank">
+                            <a href={project.code} target="_blank">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
@@ -66,13 +66,13 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {frontendProjects.map((project, index) => (
+                {reactProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank">
+                            <a href={project.code} target="_blank">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
@@ -84,13 +84,13 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {frontendProjects.map((project, index) => (
+                {reactProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank">
+                            <a href={project.code} target="_blank">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
@@ -102,13 +102,13 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {frontendProjects.map((project, index) => (
+                {reactProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.link} target="_blank">
+                            <a href={project.code} target="_blank">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
