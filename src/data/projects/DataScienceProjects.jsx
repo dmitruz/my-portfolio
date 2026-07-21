@@ -1,13 +1,19 @@
-
-import react2 from "../../images/react1.png";
-import project2 from "../../images/react2.png";
-import project3 from "../../images/react3.png";
-
-
+import react1 from "../../images/react1.png";
+import react2 from "../../images/react2.png";
+import project2 from "../../images/react1.png";
+import project3 from "../../images/react2.png";
 
 
-export const reactProjects = [
 
+
+export const dataScienceProjects = [
+    {
+        title: "EvoGym.",
+        description: "A dynamic web application designed for gym lovers. (React, Typescript, TailwindCSS)",
+        image: react1,
+        code: "https://github.com/dmitruz/gym-app",
+        link: "https://evogym-group.netlify.app/"
+    },
     {
         title: "Realestate agency",
         description: "Real estate Agency. Provide sorting and searching functionaliry for chosing flats for rent/buy (React, Typescript, Redux-Toolkit, CSS)",

@@ -544,8 +544,8 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 40px;
+    height: 40px;
     background: var(--text-color);
     border-radius: 50%;
 }
@@ -553,8 +553,8 @@ span {
 .portfolio-layer a img {
     font-size: 2rem;
     color: var(--second-bg-color);
-    width: 5rem;
-    height: 5rem;
+    width: 40px;
+    height: 40px;
 }
 
 .contact {
@@ -793,4 +793,13 @@ span {
 .stat-card p {
     color: #a19995;
     margin-top: 8px;
+}
+
+.link-container {
+    display: flex;
+}
+
+.web-icon {
+    width: 40px;
+    height: 40px;
 }
