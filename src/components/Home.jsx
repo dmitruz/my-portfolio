@@ -1,3 +1,7 @@
+import githubIcon from "../images/icons8-github-50.png";
+import linkedinIcon from "../images/icons8-linkedin-50.png";
+import mailIcon from "../images/icons8-mail-50.png";
+import "../styles/main.css";
 import { useTypedText } from "../hooks/useTypedText";
 
 export default function Home() {
@@ -29,6 +33,12 @@ export default function Home() {
                     </a>
                     <a href="https://linkedin.com/in/dmytro-ruzhytskyi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <i className="fab fa-linkedin" style={{ color: '#fff' }}></i>
+                    </a>
+                    <a href="tel:+447831417609" target="_blank" rel="noopener noreferrer" aria-label="Call me">
+                        <i class="fa fa-phone-square" aria-hidden="true style={{ color: '#fff' }}"></i>
+                    </a>
+                    <a href="mailto:dmitruz970@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="email me">
+                        <i class="fa fa-envelope" aria-hidden="true style={{ color: '#fff' }}"></i>
                     </a>
                     <a href="https://docs.google.com/document/d/1tCjc4wjreTcB3EkBvxKlqnpwPFNlewMbad8ztNbTAUg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Download CV">
                         <i className="fas fa-file-alt" style={{ color: '#fff' }}></i>
