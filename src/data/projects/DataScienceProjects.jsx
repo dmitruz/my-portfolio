@@ -1,38 +1,26 @@
-import react1 from "../../images/react1.png";
-import react2 from "../../images/react2.png";
-import project2 from "../../images/react1.png";
-import project3 from "../../images/react2.png";
-
-
+import data1 from "../../images/data1.png";
+import data2 from "../../images/data2.png";
+import data3 from "../../images/data3.png";
 
 
 export const dataScienceProjects = [
     {
-        title: "EvoGym.",
-        description: "A dynamic web application designed for gym lovers. (React, Typescript, TailwindCSS)",
-        image: react1,
-        code: "https://github.com/dmitruz/gym-app",
-        link: "https://evogym-group.netlify.app/"
+        title: "Predictive analytics for e-commerce growth",
+        description: "This project analyzes customer behavior data for an ecommerce company to determine whether development efforts should focus on their Mobile App or Website.",
+        image: data3,
+        code: "https://github.com/dmitruz/python_datascience_projects/tree/main/predictive_analytics_ecommerce_growth",
     },
     {
-        title: "Realestate agency",
-        description: "Real estate Agency. Provide sorting and searching functionaliry for chosing flats for rent/buy (React, Typescript, Redux-Toolkit, CSS)",
-        image: react2,
-        link: "https://dmitruz.github.io/sweet-home/",
-        code: "https://github.com/dmitruz/sweet-home"
+        title: "Furniture store sales analysis",
+        description: "A data science project analyzing ~350K website sessions from an online furniture store to uncover conversion drivers, revenue trends, and audience behavior",
+        image: data2,
+        code: "https://github.com/dmitruz/python_datascience_projects/tree/main/furniture_store_sales_analysys"
     },
     {
-        title: "Lose Weight APP",
-        description: "Calculation of daily calories intake. Adjusting height, weight, age, blod type. (React, Redux-Toolkit, Node.js)",
-        image: project2,
-        link: "https://weightloss-webhive.netlify.app/",
-        code: "https://github.com/dmitruz/lose-weight-app"
-    },
-    {
-        title: "SavorySeeker | Culinary Discovery Engine",
-        description: "A vibrant recipe application designed to bridge the gap between what's for dinner? and a finished meal. Users can explore random inspirations or perform targeted searches for specific ingredients or cuisines.",
-        image: project3,
-        link: "https://restaurant-dishes.netlify.app/",
-        code: "https://github.com/dmitruz/restaurant-menu"
-    },
+        title: "A/B test user retention",
+        description: "A/B Test Experiment Summary & Recommendation Project:",
+        image: data1,
+        code: "https://github.com/dmitruz/python_datascience_projects/tree/main/ab_test_user_retention"
+    }
+
 ];

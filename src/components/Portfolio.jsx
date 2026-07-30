@@ -94,7 +94,7 @@ export default function Portfolio() {
             </h2>
 
             <div className="portfolio-container">
-                {reactProjects.map((project, index) => (
+                {dataScienceProjects.map((project, index) => (
                     <div className="portfolio-box" key={index}>
                         <img className="portfolio-img" src={project.image} alt={project.title} />
                         <div className="portfolio-layer">
