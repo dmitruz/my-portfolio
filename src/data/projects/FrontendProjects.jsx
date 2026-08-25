@@ -2,6 +2,7 @@
 import react2 from "../../images/react1.png";
 import project2 from "../../images/react2.png";
 import project3 from "../../images/react3.png";
+import project4 from "../../images/admin-dashboard.png";
 
 
 
@@ -28,5 +29,12 @@ export const reactProjects = [
         image: project3,
         link: "https://restaurant-dishes.netlify.app/",
         code: "https://github.com/dmitruz/restaurant-menu"
+    },
+    {
+        title: "Attendance Management System",
+        description: "A full-stack employee attendance tracker built with Node.js / Express / MongoDB on the backend and React (Vite) on the frontend.",
+        image: project4,
+        link: "https://dmitruz.github.io/attendance-management/login",
+        code: "https://github.com/dmitruz/attendance-management"
     },
 ];
