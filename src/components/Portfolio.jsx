@@ -3,7 +3,7 @@ import { BackendProjects } from "../data/projects/BackendProjects";
 import { dataScienceProjects } from "../data/projects/DataScienceProjects";
 import "../styles/main.css";
 import Github from "../images/github.png";
-import Globe from "../images/globe_721998.png";
+import Globe from "../images/globe1.png";
 
 
 export default function Portfolio() {

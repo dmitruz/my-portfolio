@@ -40,6 +40,17 @@ export default function Services() {
                         Integration of AI into existing products
                     </p>
                 </div>
+                <div className="services-box">
+                    <i className="bx bx-bug-alt"></i>
+                    <h3>QA & Test Automation</h3>
+                    <p>
+                        Building reliable automated test suites across the stack. Unit and E2E
+                        testing with Playwright and Cypress, API testing with Pytest and Postman,
+                        backed by Swagger for API documentation and contract validation. Focused
+                        on maintainable test architecture, CI/CD integration, and catching bugs
+                        before they reach production.
+                    </p>
+                </div>
             </div>
         </section>
     );

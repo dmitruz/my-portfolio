@@ -1,16 +1,23 @@
-function Footer() {
-    <footer className="footer">
-        <div className="footerText">
-            <p> "Copyright © "
-                "2026" " by Dmytro Ruzhytskyi"
-                | All Rights Reserved."
-            </p>
-        </div>
-        <div className="footerIconTop">
-            <a href="#home"></a>
-        </div>
-    </footer>
-};
+import Logo from "../images/dmitruz.png";
+export default function Footer() {
+    return (
+        <footer className="footer">
+            <div className="footer-text">
+                <p>
+                    Copyright © 2026 by Dmytro Ruzhytskyi | All Rights Reserved.
+                </p>
+            </div>
+            <div>
+                <img src={Logo} className="logo-img" />
+            </div>
 
-export default Footer;
+            <div className="footer-iconTop">
+                <a href="#home">
+                    ↑
+                </a>
+            </div>
+        </footer>
+    );
+}
+
 

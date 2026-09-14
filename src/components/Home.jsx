@@ -1,3 +1,4 @@
+import Me from "../images/iam.png";
 import githubIcon from "../images/icons8-github-50.png";
 import linkedinIcon from "../images/icons8-linkedin-50.png";
 import mailIcon from "../images/icons8-mail-50.png";
@@ -12,8 +13,8 @@ export default function Home() {
     return (
         <section className="home" id="home">
             <div className="home-content">
+                <img src={Me} alt="Dmytro Ruzhytskyi" className="home-img" />
                 <h1>Dmytro Ruzhytskyi</h1>
-
                 <h3>
                     I'm a <span>{typedText}</span>
                 </h3>
@@ -54,6 +55,10 @@ export default function Home() {
                     <div className="skill-item">Node.js</div>
                     <div className="skill-item">Django</div>
                     <div className="skill-item">SQL</div>
+                    <div className="skill-item">ML</div>
+                    <div className="skill-item">AWS</div>
+                    <div className="skill-item">Docker</div>
+                    <div className="skill-item">Automation Testing</div>
                 </div>
             </div>
         </section>

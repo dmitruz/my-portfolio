@@ -33,7 +33,7 @@ export const dataScienceProjects = [
     },
     {
         title: "The Fake News & Misinformation Detector",
-        description: "a complete end-to-end Natural Language Processing (NLP) project that classifies news headlines and articles as REAL or FAKE. It combines TF-IDF feature extraction with a Logistic Regression classifier, achieving perfect accuracy on the cleaned dataset.",
+        description: "A complete end-to-end Natural Language Processing (NLP) project that classifies news headlines and articles as REAL or FAKE.",
         image: fakeNews,
         code: "https://github.com/dmitruz/ML_python_projects/tree/main/fake_news_detector",
     },
