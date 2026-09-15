@@ -33,10 +33,10 @@ export default function Home() {
                         <i className="fab fa-linkedin" style={{ color: '#fff' }}></i>
                     </a>
                     <a href="tel:+447831417609" target="_blank" rel="noopener noreferrer" aria-label="Call me">
-                        <i className="fa fa-phone-square" aria-hidden="true style={{ color: '#fff' }}"></i>
+                        <i className="fa fa-phone-square" aria-hidden="true" style={{ color: '#fff' }}></i>
                     </a>
                     <a href="mailto:dmitruz970@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="email me">
-                        <i className="fa fa-envelope" aria-hidden="true style={{ color: '#fff' }}"></i>
+                        <i className="fa fa-envelope" aria-hidden="true" style={{ color: '#fff' }}></i>
                     </a>
                     <a href="https://docs.google.com/document/d/1tCjc4wjreTcB3EkBvxKlqnpwPFNlewMbad8ztNbTAUg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Download CV">
                         <i className="fas fa-file-alt" style={{ color: '#fff' }}></i>
