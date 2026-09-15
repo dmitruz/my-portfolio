@@ -1,7 +1,4 @@
 import Me from "../images/iam.png";
-import githubIcon from "../images/icons8-github-50.png";
-import linkedinIcon from "../images/icons8-linkedin-50.png";
-import mailIcon from "../images/icons8-mail-50.png";
 import "../styles/main.css";
 import { useTypedText } from "../hooks/useTypedText";
 

@@ -1,6 +1,5 @@
 
 import { useState } from "react";
-import axios from "axios";
 import emailjs from "@emailjs/browser";
 import "../styles/main.css";
 
