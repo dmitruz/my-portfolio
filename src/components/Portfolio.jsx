@@ -22,10 +22,10 @@ export default function Portfolio() {
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
                             <div className="link-container">
-                                <a href={project.code} target="_blank">
+                                <a href={project.code} target="_blank" rel="noopener noreferrer">
                                     <img src={Github} alt="GitHub" className="github-icon" />
                                 </a>
-                                <a href={project.link} target="_blank">
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
                                     <img src={Globe} alt="Globe" className="web-icon" />
                                 </a>
                             </div>
@@ -44,7 +44,7 @@ export default function Portfolio() {
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.code} target="_blank">
+                            <a href={project.code} target="_blank" rel="noopener noreferrer">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
@@ -63,7 +63,7 @@ export default function Portfolio() {
                         <div className="portfolio-layer">
                             <h4>{project.title}</h4>
                             <p>{project.description}</p>
-                            <a href={project.code} target="_blank">
+                            <a href={project.code} target="_blank" rel="noopener noreferrer">
                                 <img src={Github} alt="GitHub" className="github-icon" />
                             </a>
                         </div>
