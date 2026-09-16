@@ -374,7 +374,7 @@ span {
         /* Vertically stack containers on tablet/mobile screens */
         justify-content: center;
         text-align: left;
-        padding: 5rem 3%;
+        padding: 8rem 3%;
     }
 
     .home-content,
